@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/latest/download/Rove-Setup-1.0.0.exe",
-  "sha256": "",
-  "changelog": "Rove 1.0.0 ilk kararlı sürüm.",
+  "version": "1.0.1",
+  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.1/Rove-Setup-1.0.1.exe",
+  "sha256": "766BBFD7BD973C24DF7144F4CB7333BABBE1012DE0870A2341187135598A42E4",
+  "changelog": "Daha Akıllı Yüz Tanıma, Zoom ve akıcı menü optimizasyonları.",
   "mandatory": false
 }
