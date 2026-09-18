@@ -2,6 +2,6 @@
   "version": "1.0.2",
   "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.2/Rove-Setup-1.0.2.exe",
   "sha256": "F0EFC04A91CCFA14BFDB6C3E2278A7517A535F9FDBBBD3E21ABBA189DC463278",
-  "changelog":  Modern ve daha akıcı arayüz, arama-tarama motoru geliştirmeleri, modern ve daha akıcı arayüz, bellek optimizasyonları.",
+  "changelog":  "Modern ve daha akıcı arayüz, arama-tarama motoru geliştirmeleri, modern ve daha akıcı arayüz, bellek optimizasyonları."
   "mandatory": false
 }
