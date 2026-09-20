@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.3/Rove-Setup-1.0.3.exe",
-  "sha256": "2BE10BFAE250FCF428DA0CBEB456FD28AEA9769F33B8FC9830E27BC24A832D40",
-  "changelog": "Arama deneyimi optimizasyonları, arayüz geliştirmeleri, performans iyileştirmeleri ve hata düzeltmeleri."
+  "version": "1.0.4",
+  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.4/Rove-Setup-1.0.4.exe",
+  "sha256": "C628D2251E3683F65090F95831D56C43CA750082169BC59F1CD9893AC422386F",
+  "changelog": "Kişiler taramasında geliştirilmiş yüz önerileri ve arayüz iyileştirmeleri.",
   "mandatory": false
 }
