@@ -1,7 +1,6 @@
 {
-  "version": "1.0.5",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.5/Rove-Setup-1.0.5.exe",
-  "sha256": "95D481545EFB01A2FA4C7BF9813088330435207BC06AFF11E35348AB1806B889",
-  "changelog": "Spotlight deneyimi eklendi ve arayüz akıcılığı yenilendi, performans ve görsel önizleme iyileştirmeleri yapıldı.",
-  "mandatory": false
+  "version": "1.0.9",
+  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.9/Rove-Setup-1.0.9.exe",
+  "sha256": "e154aeb9562bf83179f0d9e7e2f76d795d2d35d36e17494bb456baa1d3f631e2",
+  "changelog": "Baştan aşağı yenilenen modern Rove arayüzü, gelişmiş Kişiler bölümü, yenilenen butonlar ve duyarlı pencere düzeni."
 }
