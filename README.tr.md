@@ -86,13 +86,21 @@ Fatura, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar ve keli
 ### 4. Anında Spotlight Arama (`Alt + Space`)
 Yalnızca dosya isimlerini değil, tüm sistemdeki belgelerin içindeki metinleri de arayan yerel komut satırı.
 
+<br/>
+
+<div align="center">
+<img src="assets/spotlight_search.gif" alt="Rove Anında Spotlight Arama" width="90%" />
+</div>
+
+<br/>
+
 * **Evrensel Erişim:** Tek bir kısayolla masaüstünün her yerinden anında çağrılır.
 * **Milisaniyelik Yanıt:** İlk harfe bastığınız anda sonuçlar 5 milisaniyenin altında ekrana gelir.
-* **Doğal Filtreleme:** Kişi adı, sözleşmedeki bir madde veya proje kodu yazın; Rove ilgili tüm içeriği önünüze serer.
+* **Doğal Filtreleme:** Fotoğraf adı, uygulama veya sözleşmedeki bir madde yazın; Rove ilgili içeriği önünüze serer.
 
 ---
 
-### 3. Ekranın Tepesinde Canlı Dinamik Ada
+### 5. Ekranın Tepesinde Canlı Dinamik Ada
 Çalışma temponuzu bölmeden ihtiyacınız olan bilgileri sunan minimalist masaüstü çentiği.
 
 <br/>
@@ -110,7 +118,7 @@ Yalnızca dosya isimlerini değil, tüm sistemdeki belgelerin içindeki metinler
 
 ---
 
-### 4. Şişkinlik Değil, Saf Hız İçin Üretildi
+### 6. Şişkinlik Değil, Saf Hız İçin Üretildi
 
 Masaüstü programlarının çoğu arka planda gigabaytlarca RAM tüketen hantal web pencereleridir. Rove yerel, optimize edilmiş bir mimariyle çalışır:
 
