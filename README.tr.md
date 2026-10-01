@@ -23,7 +23,7 @@
 
 <br/><br/>
 
-<img src="assets/hero_banner.png" alt="Rove Masaüstü Vitrini" width="100%" />
+<img src="assets/showcase_real_rove.png" alt="Rove Masaüstü Vitrini" width="100%" />
 
 </div>
 
@@ -41,12 +41,6 @@ Bilgisayarlarımızda yıllardır biriken binlerce dağınık fotoğraf, sözle�
 
 ### 1. Akıllı ve %100 Gizli Yüz & Fotoğraf Albümleri
 Diskinizdeki on binlerce tatil fotoğrafını, aile anısını ve ekran görüntüsünü saniyeler içinde tarayın.
-
-<br/>
-
-<img src="assets/preview_face_ai.png" alt="Rove Yüz Tanıma Vitrini" width="100%" />
-
-<br/>
 
 * **Zamanla Tanımayı Öğrenir:** Rove basit şablonlarla çalışmaz. Farklı yıllara, sakal, gözlük veya ışık değişimlerine ait yeni fotoğraflar geldikçe, kişinin ağırlık merkezini dinamik olarak günceller ve her geçen gün kişiyi daha isabetli tanımayı öğrenir.
 * **Otomatik Gruplandırma:** Tek tek etiketlemeye gerek kalmadan herkesi kendi albümünde toplar.
@@ -69,7 +63,9 @@ Yalnızca dosya isimlerini değil, belgelerin içindeki metinleri de arayan yere
 
 <br/>
 
-<img src="assets/preview_island.png" alt="Rove Dinamik Ada Göstergesi" width="100%" />
+<div align="center">
+<img src="assets/dynamic_island.gif" alt="Rove Dinamik Ada Göstergesi" width="80%" />
+</div>
 
 <br/>
 
