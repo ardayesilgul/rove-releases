@@ -8,124 +8,110 @@
 
 # ROVE
 
-### Yüksek Performanslı Cihaz İçi Makine Algısı ve Nöral İndeksleme Motoru
+### Windows İçin Hızlı, Gizli ve Akıllı Masaüstü Katmanı
 
-[![Kararlı Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.11%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.11)
+**Dağınık fotoğraf arşivlerinizi akıllı albümlere dönüştürün, aradığınız her belgeyi milisaniyeler içinde bulun ve bilgisayarınızı Dinamik Ada ile yönetin.**
+
+[![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.11%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.11)
 [![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.11)
-[![Mimari](https://img.shields.io/badge/M%C4%B0MAR%C4%B0-512--D%20CENTROID%20%2F%20FTS5-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
-[![Telemetri](https://img.shields.io/badge/TELEMETR%C4%B0-%250%20HAVA%20BO%C5%9ELUKLU%20(AIR--GAPPED)-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
+[![Gizlilik](https://img.shields.io/badge/G%C4%B0ZL%C4%B0L%C4%B0K-%25100%20YEREL%20%26%20%C3%87EVR%C4%B0MDI%C5%9EI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
+[![Bellek](https://img.shields.io/badge/RAM-158%20MB%20HAF%C4%B0F-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
-[**WINDOWS İÇİN ROVE v1.0.11 İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe)
+[**WINDOWS İÇİN ROVE'U İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe)
+
+<br/><br/>
+
+<img src="assets/hero_banner.png" alt="Rove Masaüstü Vitrini" width="100%" />
 
 </div>
 
 ---
 
-## Teknik Genel Bakış
+## Neden Rove?
 
-Rove; devasa yerel medya arşivlerini gerçek zamanlı olarak indekslemek, sınıflandırmak ve anında erişilebilir kılmak için Windows ortamında geliştirilmiş, dış ağlardan tamamen izole (air-gapped) bir makine algısı katmanıdır.
+Bilgisayarlarımızda yıllardır biriken binlerce dağınık fotoğraf, sözleşme, PDF ve not var. Ancak aradığımız bir anıyı veya önemli bir faturayı bulmak çoğu zaman dakikalar sürüyor; bulut tabanlı yapay zeka araçları ise tüm özel fotoğraflarınızı ve belgelerinizi kendi sunucularına yüklemenizi istiyor.
 
-Bulut bağımlılıklarını kökten ortadan kaldıracak şekilde inşa edilen Rove; derin biyometrik vektörleştirmeyi, dinamik ağırlık merkezi (centroid) kimlik öğrenimini, milisaniye-altı tam metin indekslemeyi ve gerçek zamanlı ses telemetrisini sıfır harici API çağrısıyla doğrudan yerel donanımınız üzerinde çalıştırır.
-
----
-
-## Çekirdek Mühendislik Sütunları
-
-```
-+-------------------------------------------------------------------------+
-|                    ANA ARAYÜZ İŞ PARÇACIĞI (60 FPS VSYNC)               |
-|   Donanım DWM Entegrasyonu | OutBack Yay Fiziği | Sıfır Bağımsız Pencere|
-+-------------------------------------------------------------------------+
-                                    ^
-                                    | Qt Event Bus (İş Parçacığı Güvenli)
-                                    v
-+--------------------+--------------------+--------------------+----------+
-|  NÖRAL BİYOMETRİ   | TAM METİN ARAMA    | DONANIM TELEMETRİSİ| GEÇİCİ   |
-|  512-D Centroid    | SQLite FTS5 / BM25 | WASAPI Core Audio  | RAF      |
-|  MTCNN + ResNet    | < 5ms Sorgulama    | 40Hz Gerçek Tepe   | WinRT    |
-+--------------------+--------------------+--------------------+----------+
-```
+**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlıdır, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz.
 
 ---
 
-### `[SÜTUN_01: ÖZEL BİYOMETRİK MANİFOLD VE DİNAMİK AĞIRLIK MERKEZİ YAKINSAMASI]`
+## Öne Çıkan Özellikler
 
-Rove, temel kütüphanelerin statik eşleştirme yaklaşımları yerine, onlarca yıllık dağınık fotoğraf arşivleri için özel olarak optimize edilmiş dinamik ve çok aşamalı bir biyometrik hat işletir:
+### 1. Akıllı ve %100 Gizli Yüz & Fotoğraf Albümleri
+Diskinizdeki on binlerce tatil fotoğrafını, aile anısını ve ekran görüntüsünü saniyeler içinde tarayın.
 
-* **Afin Kerteriz Normalizasyonu:** Çok katmanlı kaskad nöral tespit; yüz bölgelerini izole eder, açı ve eğim sapmalarını düzelterek $160 \times 160$ standart hizalanmış biyometrik kırpıntılar üretir.
-* **512-Boyutlu Hiperküre Haritalaması:** Derin artık (residual) gömüleme modeli; her yüzü L2-normalize edilmiş 512 boyutlu sürekli bir vektör uzayına ($||v||_2 = 1.0$) yansıtır ve ışık/yaş değişimlerinden bağımsız değişmez yüz geometrisini kodlar.
-* **Dinamik ve Uyarlanabilir Ağırlık Merkezi (Centroid) Takviyesi:** Kimlikler sabit fotoğraflar olarak değil, yaşayan küme merkezleri olarak modellenir. Farklı ışık, sakal, gözlük veya yaşlanma koşullarında onaylanan yeni fotoğraflar geldikçe, kişinin ağırlık merkezi matematiksel olarak gerçek geometrik merkezine yakınsar:
-$$\mathbf{C}_{\text{yeni}} = \text{Normalize}\left( \frac{\mathbf{C}_{\text{eski}} \cdot N + \mathbf{V}_{\text{yeni}}}{N + 1} \right)$$
-* **Üç Kademeli Karar Eşikleri:**
-  * **Eşik 1 ($\ge 0.65$):** Doğrulanmış kimlik kümesine otonom doğrudan ekleme.
-  * **Eşik 2 ($0.50 - 0.65$):** Şüpheli durumlar için kullanıcı onayına sunulan akıllı öneri havuzu.
-  * **Eşik 3 ($< 0.50$):** Eşleşme bulunamayan yüzler için otomatik yeni küme dallanması.
-* **Negatif İlişkilendirme ve Kara Liste İzolasyonu:** Hatalı eşleşme bildirimleri, ilgili vektörü anında kişinin ağırlık merkezinden budar ve hash imzasını `ignored_faces` tablosuna mühürleyerek aynı hatanın tekrarlanmasını kalıcı olarak engeller.
-* **Dinamik Yığın Sanallaştırması:** 100.000'den fazla yüz içeren devasa arşivlerde bile arayüzü dondurmadan, dikey kaydırma geometrisine bağlı olarak 48'lik bloklar halinde akıcı yükleme sağlar.
+<br/>
 
----
+<img src="assets/preview_face_ai.png" alt="Rove Yüz Tanıma Vitrini" width="100%" />
 
-### `[SÜTUN_02: 5 MS ALTINDA TAM METİN İNDEKSLEME VE BM25 SIRALAMASI]`
+<br/>
 
-Doğrudan yerel disk üzerinde çalışan yüksek verimli belge indeksleme omurgası:
-
-* **Yerel Belge Çözümleme:** Harici servis kullanmadan PDF, DOCX, XLSX ve TXT belgelerinden yapılandırılmış metinleri, ham fotoğraf formatlarından ise yüksek hassasiyetli EXIF metaverilerini ayıklar.
-* **Deterministik FTS5 İndeksleme:** Tokenize edilen veri akışı, Porter stemmer ve unicode61 normalizasyonu ile SQLite FTS5 sanal tablolarında Write-Ahead Logging (WAL) modunda dizinlenir.
-* **BM25 Alakalılık Puanlaması:** Terim doygunluğu ($k_1 = 1.2$) ve belge uzunluğu cezalandırması ($b = 0.75$) işletilir; dosya adı frekansına $3.5\times$ öncelik verilerek on binlerce belgede 5 milisaniyenin altında anlık sorgu sonucu üretilir.
+* **Zamanla Tanımayı Öğrenir:** Rove basit şablonlarla çalışmaz. Farklı yıllara, sakal, gözlük veya ışık değişimlerine ait yeni fotoğraflar geldikçe, kişinin ağırlık merkezini dinamik olarak günceller ve her geçen gün kişiyi daha isabetli tanımayı öğrenir.
+* **Otomatik Gruplandırma:** Tek tek etiketlemeye gerek kalmadan herkesi kendi albümünde toplar.
+* **Sıfır Bulut Yüklemesi:** Tüm yüz tespiti ve biyometrik işlemler doğrudan bilgisayarınızın işlemci ve ekran kartında gerçekleşir. Anılarınız diskinizden asla dışarı çıkmaz.
+* **Tek Tıkla Düzeltme:** Yanlış eşleşen bir fotoğrafı albümden çıkardığınızda, yapay zeka o hatayı anında hafızasından arındırır ve bir daha karşınıza çıkarmaz.
 
 ---
 
-### `[SÜTUN_03: ASENKRON İŞ PARÇACIĞI MİMARİSİ VE 60 FPS YALITIMI]`
+### 2. Anında Spotlight Arama (`Alt + Space`)
+Yalnızca dosya isimlerini değil, belgelerin içindeki metinleri de arayan yerel arama motoru.
 
-* **Katı İş Parçacığı Ayrımı:** Ağır tensör hesaplamaları, disk fihristleme ve ses telemetrisi bağımsız QThread havuzlarında çalışır. Ana arayüz iş parçacığı (Main GUI Thread) I/O işlemlerinden tamamen izole edilerek yoğun CPU yükleri altında dahi "Program Yanıt Vermiyor" kilitlenmeleri %0'a indirilir.
-* **Güvenli Olay Köprüsü (Qt Event Bus):** İş parçacıkları arası veri trafiği sıralı Qt sinyalleriyle yönetilir; paylaşılan bellek yarış durumları ve SQLite veritabanı kilitlenmeleri engellenir.
-
----
-
-### `[SÜTUN_04: ÇEVRESEL DONANIM ENTEGRASYONU VE DİNAMİK ÇENTİK]`
-
-Sistem durumunu bağımsız diyalog pencereleri açmadan zarifçe sunan donanım odaklı masaüstü yüzeyi:
-
-* **WASAPI Core Audio Telemetrisi:** Hoparlörün fiziksel elektrik genliğini (`IAudioMeterInformation`) 40 Hz frekansla sorgular `[0.0, 1.0]`. Ses durduğunda 4-bant harmonik sinüs ekolayzırı yapay gürültü üretmeden doğrudan sıfır taban çizgisine oturur.
-* **Çevresel Alan Farkındalığı:** Düşük seviyeli sistem kancalarıyla (`WH_MOUSE_LL`) tarayıcı sekmeleri ekran tepesine yaklaştığında 5px yukarı çekilerek sekme kapatmayı engellemez; tam ekran oyun ve videolarda anında gizlenir (`SW_HIDE`).
-* **Donanım Seviyesi DWM Entegrasyonu:** Windows Masaüstü Pencere Yöneticisi (`DwmSetWindowAttribute`) ile pencere başlık çubuğunu donanım düzeyinde saf siyaha (`#000000`) boyayarak pürüzsüz ve dikişsiz bir koyu tema sunar.
+* **Belgelerin İçini Okur:** PDF, Word (`.docx`), Excel (`.xlsx`) belgelerindeki ve fotoğrafların EXIF detaylarındaki metinleri anında tarar.
+* **Milisaniyelik Yanıt:** İlk harfe bastığınız anda sonuçlar 5 milisaniyenin altında ekrana gelir.
+* **Doğal Filtreleme:** Kişi adı, sözleşmedeki bir madde veya proje kodu yazın; Rove ilgili tüm içeriği önünüze serer.
 
 ---
 
-## Performans ve Güvenlik Karşılaştırma Matrisi
+### 3. Ekranın Tepesinde Canlı Dinamik Ada
+Çalışma temponuzu bölmeden ihtiyacınız olan bilgileri sunan minimalist masaüstü çentiği.
 
-| Kriter / Özellik | Geleneksel Etiketleme / Bulut İndeksleyiciler | Rove Yerel Algı Motoru |
+<br/>
+
+<img src="assets/preview_island.png" alt="Rove Dinamik Ada Göstergesi" width="100%" />
+
+<br/>
+
+* **Gerçek Ses Dalgaları:** Spotify veya bilgisayarda müzik çalarken, hoparlörden çıkan gerçek ses sinyaline göre dalgalanan canlı ekolayzır barları. Ses kesildiğinde dalgalar taban çizgisine oturur.
+* **Zarif Donanım Bildirimleri:** Windows'un kaba büyük ses ve parlaklık kutuları yerine modern, akıcı kapsüller gösterir.
+* **Odaklanma & Dosya Rafı:** Tek tıkla Pomodoro çalışma sayacını başlatın ya da dosyaları adanın üstüne sürükleyip geçici rafta bekletin.
+* **Akıllı Alan Boşaltma:** Tarayıcı sekmeleri ekran tepesine yaklaştığında 5px yukarı çekilerek sekmeleri kapatmanızı engellemez; tam ekran oyun veya videolarda anında gizlenir.
+
+---
+
+### 4. Şişkinlik Değil, Saf Hız İçin Üretildi
+
+Masaüstü programlarının çoğu arka planda gigabaytlarca RAM tüketen hantal web pencereleridir. Rove yerel, optimize edilmiş bir mimariyle çalışır:
+
+* **Sadece ~158 MB RAM:** Arka planda boşta çalışırken sıfır CPU tüketir, bilgisayarınızı asla yavaşlatmaz.
+* **60 FPS Akıcı Animasyonlar:** Tüm kart ve menü açılışları monitörünüzün kare hızına eşitlenmiş doğal yay fiziğiyle ($s = 1.70158$) hareket eder.
+* **Asenkron Güvenlik:** Ağır fotoğraf tarama ve dosya indeksleme işlemleri arka plandaki bağımsız işçilerde yürütülür; ana arayüz hiçbir zaman "Program Yanıt Vermiyor" uyarısıyla donmaz.
+
+---
+
+## Karşılaştırma Tablosu
+
+| Özellik | Tipik Bulut / Web Araçları | Rove |
 | :--- | :--- | :--- |
-| **Veri Gizliliği** | Bulut sunucularına yükleme / Harici API | **%100 Hava Boşluklu (Sadece Yerel Bilgisayar)** |
-| **Biyometrik Kümeleme**| Statik birebir görsel karşılaştırması | **Dinamik ve Uyarlanabilir Centroid Öğrenimi** |
-| **Arama Yanıt Süresi** | 250ms - 1500ms (İnternet bağlantısına bağlı) | **< 5ms (Yerel FTS5 + BM25)** |
-| **Bellek Tüketimi** | 800 MB - 2.5 GB (Electron/Web tabanlı) | **~158 MB RSS (Derlenmiş Yerel Binary)** |
-| **Arayüz Tepkiselliği** | Senkron işlem kilitlenmeleri | **Katı Asenkron 60 FPS VSync İzolasyonu** |
-| **Telemetri & İzleme** | Sürekli arka plan analitiği ve veri toplama | **%0 Ağ Telemetrisi (Sıfır Dış Bağlantı)** |
+| **Veri Gizliliği** | Fotoğrafları bulut sunucularına yükler | **%100 Çevrimdışı (Dosyalarınız PC'nizde kalır)** |
+| **Yüz Tanıma** | Basit statik etiketler | **Zamanla Öğrenen Dinamik Centroid Modeli** |
+| **Arama Hızı** | 300ms - 2000ms (İnternete bağlı) | **< 5ms (Yerel FTS5 ile anında)** |
+| **RAM Tüketimi** | 800 MB - 2.5 GB (Electron) | **~158 MB (Yerel hafif binary)** |
+| **Arayüz Tepkisi** | Ağır işlemlerde kilitlenme | **Katı 60 FPS VSync İzolasyonu** |
+| **Telemetri** | Sürekli arka plan veri toplama | **%0 Telemetri (Sıfır dış bağlantı)** |
 
 ---
 
-## Sürüm Paketleri ve SHA-256 Doğrulama
+## Kurulum ve Başlangıç
 
-Her kararlı sürüm Inno Setup ile paketlenir ve değişmez bir SHA-256 özetiyle mühürlenir.
-
-### Güncel Kararlı Sürüm: v1.0.11
-- **Kurulum Dosyası:** `Rove-Setup-1.0.11.exe`
-- **Dosya Boyutu:** ~128 MB
-- **SHA-256 Doğrulama Kodu:**
-  ```text
-  bcaa8cf34e0b4473addac48fda466dbf7ce6958697debd982d0fd64b535da702
-  ```
-
-#### Bütünlük Kontrolü (PowerShell)
-```powershell
-Get-FileHash -Path "Rove-Setup-1.0.11.exe" -Algorithm SHA256
-```
+1. Kurulum dosyasını indirin: [**Rove-Setup-1.0.11.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe)
+2. Kurulumu çalıştırın (yaklaşık 15 saniyede tamamlanır).
+3. Klavyenizden **`Alt + Space`** tuşuna basarak aramayı açın veya ekranın tepesindeki adaya tıklayın.
 
 ---
 
-## Hata Bildirimi ve Geri Bildirim
+## Geri Bildirim ve Destek
 
-Tespit edilen hatalar, teknik öneriler veya özellik talepleri için [GitHub Issues](https://github.com/ardayesilgul/rove-releases/issues) üzerinden kayıt oluşturabilirsiniz.
+Bir hata mı fark ettiniz, teknik bir öneriniz mi var veya yeni bir araç mı istiyorsunuz?  
+[GitHub Issues](https://github.com/ardayesilgul/rove-releases/issues) üzerinden doğrudan kayıt açabilirsiniz.
