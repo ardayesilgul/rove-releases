@@ -1,6 +1,6 @@
 {
-  "version": "1.0.10",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.10/Rove-Setup-1.0.10.exe",
-  "sha256": "93846e5b9c57dc99f71db3d7ef4c1f38fd5b1f54efd4f61b19dfcbd6df0e3675",
-  "changelog": "Rove Dinamik Ada (canlı medya, sürükle-bırak belge dönüştürme, ada içi hızlı not), hızlandırılmış fotoğraf atama ve sıfır gecikmeli arama deneyimi."
+  "version": "1.0.11",
+  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe",
+  "sha256": "bcaa8cf34e0b4473addac48fda466dbf7ce6958697debd982d0fd64b535da702",
+  "changelog": "Sonsuz kaydırma ile kesintisiz fotoğraf yükleme işlevlerinde geliştirmeler yapıldı, farklı ekranlarında ızgara taşma düzeltmeleri, toplu yüz onay/red araçları ve arayüz cilaları."
 }
