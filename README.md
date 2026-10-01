@@ -86,13 +86,21 @@ Find scanned invoices, receipts, vehicle registrations, and screenshots using te
 ### 4. Instant Spotlight Search (`Alt + Space`)
 A universal system search engine that indexes both file names and deep document contents.
 
+<br/>
+
+<div align="center">
+<img src="assets/spotlight_search.gif" alt="Rove Instant Spotlight Search" width="90%" />
+</div>
+
+<br/>
+
 * **Global Access:** Summon the unified command bar from anywhere with a single hotkey.
 * **Sub-5 Millisecond Queries:** Powered by local full-text search with contextual relevance ranking. You get instant results on your very first keystroke.
-* **Natural Filtering:** Type a person's name, a keyword from a contract, or a project tag—Rove connects the dots instantly.
+* **Natural Filtering:** Type a photo name, an application, or a document keyword—Rove connects the dots instantly.
 
 ---
 
-### 3. Ambient Dynamic Island
+### 5. Ambient Dynamic Island
 A living, minimal island at the top of your screen that keeps you informed without interrupting your workflow.
 
 <br/>
@@ -110,7 +118,7 @@ A living, minimal island at the top of your screen that keeps you informed witho
 
 ---
 
-### 4. Built for Speed, Not Bloat
+### 6. Built for Speed, Not Bloat
 
 Most modern desktop apps are heavy web wrappers that consume gigabytes of memory. Rove is engineered with a native, multithreaded architecture:
 
