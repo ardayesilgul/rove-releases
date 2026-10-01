@@ -1,3 +1,9 @@
+<div align="right">
+
+**English** &bull; [Türkçe](README.tr.md)
+
+</div>
+
 <div align="center">
 
 # ROVE
@@ -48,7 +54,7 @@ Built from the ground up to eliminate cloud dependencies, Rove executes deep bio
 
 Rather than relying on basic landmark libraries or static matching thresholds, Rove implements an adaptive multi-stage biometric pipeline designed for unconstrained, multi-decade photo libraries:
 
-* **Affine Kerteriz Normalization:** Multi-stage cascaded neural detection isolates face regions, correcting in-plane tilt and pitch angles to generate standardized $160 \times 160$ aligned biometric crops.
+* **Affine Landmark Normalization:** Multi-stage cascaded neural detection isolates face regions, correcting in-plane tilt and pitch angles to generate standardized $160 \times 160$ aligned biometric crops.
 * **512-Dimensional Hyper-Sphere Mapping:** Deep residual embedding projects each face into an L2-normalized 512-D continuous vector space ($||v||_2 = 1.0$), capturing invariant facial geometries.
 * **Adaptive Dynamic Centroid Reinforcement:** Identities are modeled as living cluster centers rather than static reference points. As new photos under diverse lighting, aging, and facial hair are verified, the identity centroid dynamically converges toward the true geometric center:
 $$\mathbf{C}_{\text{new}} = \text{Normalize}\left( \frac{\mathbf{C}_{\text{old}} \cdot N + \mathbf{V}_{\text{new}}}{N + 1} \right)$$
