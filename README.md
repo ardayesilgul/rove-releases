@@ -8,124 +8,110 @@
 
 # ROVE
 
-### High-Performance On-Device Machine Perception & Neural Indexing Engine
+### The Fast, Private Desktop Intelligence Layer for Windows
 
-[![Stable Build](https://img.shields.io/badge/RELEASE-v1.0.11%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.11)
+**Turn disorganized photo libraries into smart identity albums, find any document in milliseconds, and control your environment with a seamless Dynamic Island.**
+
+[![Version](https://img.shields.io/badge/VERSION-v1.0.11%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.11)
 [![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.11)
-[![Architecture](https://img.shields.io/badge/PIPELINE-512--D%20CENTROID%20%2F%20FTS5-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
-[![Telemetry](https://img.shields.io/badge/TELEMETRY-0%25%20AIR--GAPPED-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
+[![Privacy](https://img.shields.io/badge/PRIVACY-100%25%20LOCAL%20%26%20OFFLINE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
+[![Memory](https://img.shields.io/badge/RAM-158%20MB%20LIGHTWEIGHT-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
-[**DOWNLOAD ROVE v1.0.11 (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe)
+[**DOWNLOAD ROVE FOR WINDOWS (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe)
+
+<br/><br/>
+
+<img src="assets/hero_banner.png" alt="Rove Desktop Intelligence Showcase" width="100%" />
 
 </div>
 
 ---
 
-## Technical Overview
+## Why Rove?
 
-Rove is an air-gapped machine perception layer for Windows engineered to index, organize, and retrieve massive local media libraries in real time. 
+Modern desktop computers have vast hard drives filled with scattered memories, documents, and notes. Yet finding what you need is slow, and most AI tools require uploading your private files to cloud servers.
 
-Built from the ground up to eliminate cloud dependencies, Rove executes deep biometric vectorization, dynamic centroid identity learning, sub-millisecond full-text tokenization, and real-time audio telemetry locally on host silicon with zero external API calls.
-
----
-
-## Core Engineering Pillars
-
-```
-+-------------------------------------------------------------------------+
-|                        MAIN GUI THREAD (60 FPS VSYNC)                   |
-|   Seamless DWM Integration | OutBack Spring Kinematics | Zero Detached   |
-+-------------------------------------------------------------------------+
-                                    ^
-                                    | Qt Event Bus (Thread-Safe Signals)
-                                    v
-+--------------------+--------------------+--------------------+----------+
-|  NEURAL BIOMETRICS | FULL-TEXT INDEXER  | HARDWARE TELEMETRY | SHELF    |
-|  512-D Centroid    | SQLite FTS5 / BM25 | WASAPI Core Audio  | WinRT    |
-|  MTCNN + ResNet    | Sub-5ms Search     | 40Hz Peak Polling  | Local    |
-+--------------------+--------------------+--------------------+----------+
-```
+**Rove changes that.** It is an on-device operating layer built from scratch for Windows that indexes your content with deep local perception models—fast, silent, and strictly private.
 
 ---
 
-### `[PILLAR_01: PROPRIETARY BIOMETRIC MANIFOLD & CENTROID CONVERGENCE]`
+## Key Features
 
-Rather than relying on basic landmark libraries or static matching thresholds, Rove implements an adaptive multi-stage biometric pipeline designed for unconstrained, multi-decade photo libraries:
+### 1. Smart, Private Face & Photo Albums
+Scan tens of thousands of family photos, travel archives, and screenshots in seconds.
 
-* **Affine Landmark Normalization:** Multi-stage cascaded neural detection isolates face regions, correcting in-plane tilt and pitch angles to generate standardized $160 \times 160$ aligned biometric crops.
-* **512-Dimensional Hyper-Sphere Mapping:** Deep residual embedding projects each face into an L2-normalized 512-D continuous vector space ($||v||_2 = 1.0$), capturing invariant facial geometries.
-* **Adaptive Dynamic Centroid Reinforcement:** Identities are modeled as living cluster centers rather than static reference points. As new photos under diverse lighting, aging, and facial hair are verified, the identity centroid dynamically converges toward the true geometric center:
-$$\mathbf{C}_{\text{new}} = \text{Normalize}\left( \frac{\mathbf{C}_{\text{old}} \cdot N + \mathbf{V}_{\text{new}}}{N + 1} \right)$$
-* **Triple-Tier Decision Boundaries:**
-  * **Tier 1 ($\ge 0.65$):** Instant autonomous association into existing identity clusters.
-  * **Tier 2 ($0.50 - 0.65$):** Ambiguity resolution queue with active cluster proposals.
-  * **Tier 3 ($< 0.50$):** Automated branch generation for unidentified clusters.
-* **Negative Association & Blacklist Isolation:** Explicit false-match rejections immediately prune aberrant vectors from the centroid and write hash-signatures to local isolation tables (`ignored_faces`), permanently neutralizing recurring misclassifications.
-* **Dynamic Chunk Virtualization:** Handles libraries with 100,000+ faces without UI stutter by streaming 48-item rendering batches based on vertical scroll geometry.
+<br/>
 
----
+<img src="assets/preview_face_ai.png" alt="Rove Face AI Clustering" width="100%" />
 
-### `[PILLAR_02: SUB-5MS FULL-TEXT RETRIEVAL & BM25 RANKING]`
+<br/>
 
-A high-throughput local document indexing engine operating directly against raw storage:
-
-* **Native Document Ingestion:** Headless parsers extract structured textual tokens from PDF, DOCX, XLSX, and TXT files, alongside high-precision EXIF metadata from raw photo formats.
-* **Deterministic FTS5 Indexing:** Tokenized streams are ingested into SQLite FTS5 virtual tables with Porter stemming and unicode61 diacritic normalization under Write-Ahead Logging (WAL).
-* **BM25 Relevance Scoring:** Queries evaluate term saturation ($k_1 = 1.2$) and document length normalization ($b = 0.75$) with heavy title-frequency amplification ($3.5\times$), executing prefix queries in under 5 milliseconds across tens of thousands of documents.
+* **Learns Faces Over Time:** Rove does not use static photo comparisons. As you verify photos across different years, lighting, beards, and glasses, its neural centroid dynamically learns each person's evolving profile.
+* **Instant Grouping:** Automatically clusters people into searchable albums without requiring manual tagging.
+* **Zero Cloud Uploads:** Every face detection and vector calculation executes 100% offline on your own CPU and GPU. Your memories never leave your hard drive.
+* **One-Click Corrections:** Easily remove false matches; Rove immediately prunes bad detections so they never resurface.
 
 ---
 
-### `[PILLAR_03: ASYNCHRONOUS ARCHITECTURE & 60 FPS ISOLATION]`
+### 2. Instant Spotlight Search (`Alt + Space`)
+A universal search engine that indexes both your file names and deep document contents.
 
-* **Strict Thread Isolation:** Heavy tensor operations, disk indexing, and audio telemetry run strictly within asynchronous QThread pools. The Main GUI Thread remains entirely decoupled from I/O, guaranteeing zero "Not Responding" stalls under heavy CPU loads.
-* **Thread-Safe Event Bus:** Inter-thread communication is strictly arbitrated via serialized Qt signals/slots, preventing shared memory race conditions or SQLite database locks.
-
----
-
-### `[PILLAR_04: AMBIENT HARDWARE INTEGRATION & DYNAMIC NOTCH]`
-
-A compact, hardware-aware desktop surface that presents system state without detached popups:
-
-* **WASAPI Core Audio Telemetry:** Directly polls `IAudioMeterInformation` at 40 Hz to sample real electrical speaker amplitude `[0.0, 1.0]`. When audio halts, the 4-band harmonic sine equalizer decays to baseline with zero synthetic noise.
-* **Desktop Clearance Engine:** Seamlessly interacts with the Windows window manager via low-level hooks (`WH_MOUSE_LL`). Automatically tucks 5px upward when browser tabs near the top border, and invokes `SW_HIDE` during full-screen applications.
-* **Hardware-Level DWM Styling:** Uses native Windows Desktop Window Manager composition (`DwmSetWindowAttribute`) to render seamless `#000000` pitch-black title bars and true borderless surfaces.
+* **Search Inside Documents:** Finds text inside PDFs, Word documents (`.docx`), Excel spreadsheets (`.xlsx`), and raw image EXIF metadata.
+* **Sub-5 Millisecond Queries:** Powered by local full-text search with contextual relevance ranking. You get instant results on your very first keystroke.
+* **Natural Filtering:** Type a person's name, a keyword from a contract, or a project tag—Rove connects the dots instantly.
 
 ---
 
-## Performance & Security Matrix
+### 3. Ambient Dynamic Island
+A living, minimal island at the top of your screen that keeps you informed without interrupting your workflow.
 
-| Metric / Specification | Traditional Tagging / Cloud Indexers | Rove Local Perception Engine |
+<br/>
+
+<img src="assets/preview_island.png" alt="Rove Dynamic Island Showcase" width="100%" />
+
+<br/>
+
+* **Real Hardware Audio Waves:** When music plays on Spotify or Windows, the island renders true real-time sinusoidal waveforms based on actual speaker output. When sound stops, it settles silently to a resting line.
+* **Modern Hardware HUD:** Replaces clunky Windows volume and brightness popups with sleek, fluid capsules.
+* **Deep Work & Focus:** Start a Pomodoro focus timer with a single click, or drag files onto the island to hold them in a temporary shelf.
+* **Smart Clearance:** Automatically slides upward by 5px when browser tabs near the top, and hides completely when you enter full-screen games or video.
+
+---
+
+### 4. Built for Speed, Not Bloat
+
+Most modern desktop apps are heavy web wrappers that consume gigabytes of memory. Rove is engineered with a native, multithreaded architecture:
+
+* **~158 MB RAM Usage:** Runs silently in the background with near-zero idle CPU consumption.
+* **60 FPS Fluid Motion:** All expansions and cards use fluid OutBack spring physics ($s = 1.70158$) synchronized with your monitor's refresh rate.
+* **Non-Blocking Architecture:** Heavy photo scanning and document indexing run on separate worker threads, meaning your user interface never freezes.
+
+---
+
+## Comparison
+
+| Feature | Typical Cloud Tools | Rove |
 | :--- | :--- | :--- |
-| **Data Privacy** | Cloud uploads / External APIs | **100% Air-Gapped (Local Host Only)** |
-| **Biometric Clustering** | Static one-to-one image matching | **Adaptive Dynamic Centroid Learning** |
-| **Search Query Latency** | 250ms - 1500ms (Network dependent) | **< 5ms (Local FTS5 + BM25)** |
-| **Memory Footprint** | 800 MB - 2.5 GB (Electron/Web wrappers)| **~158 MB RSS (Native Compiled Binary)** |
-| **UI Responsiveness** | Synchronous rendering freezes | **Strict Asynchronous 60 FPS VSync** |
-| **Telemetry & Tracking** | Active analytical telemetry | **0% Network Telemetry (Zero Callbacks)** |
+| **Privacy** | Uploads photos & docs to cloud | **100% Air-Gapped (Never leaves your PC)** |
+| **Face Recognition** | Basic static tags | **Adaptive Neural Centroid Learning** |
+| **Search Speed** | 300ms - 2000ms (Network delay) | **< 5ms (Instant Local FTS5)** |
+| **RAM Footprint** | 800 MB - 2.5 GB (Electron) | **~158 MB (Native Optimized)** |
+| **UI Responsiveness** | Frequent interface lockups | **Strict 60 FPS VSync Isolation** |
+| **Telemetry** | Persistent analytics & tracking | **0% Telemetry (Zero callbacks)** |
 
 ---
 
-## Release Artifacts & Verification
+## Getting Started
 
-Every build is packaged via Inno Setup and signed with an immutable SHA-256 digest.
-
-### Stable Distribution: v1.0.11
-- **File:** `Rove-Setup-1.0.11.exe`
-- **Payload Size:** ~128 MB
-- **SHA-256 Digest:**
-  ```text
-  bcaa8cf34e0b4473addac48fda466dbf7ce6958697debd982d0fd64b535da702
-  ```
-
-#### Integrity Check (PowerShell)
-```powershell
-Get-FileHash -Path "Rove-Setup-1.0.11.exe" -Algorithm SHA256
-```
+1. Download the latest installer: [**Rove-Setup-1.0.11.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe)
+2. Run the installer (takes ~15 seconds to set up).
+3. Press **`Alt + Space`** to summon Spotlight, or click the island at the top of your screen.
 
 ---
 
-## Issue Tracking
+## Feedback & Community
 
-For defect reports, architecture discussions, and feature proposals, submit an issue to the [Issue Tracker](https://github.com/ardayesilgul/rove-releases/issues).
+Have an idea, found a bug, or want to suggest a new toolkit?  
+Submit an issue directly on the [GitHub Issue Tracker](https://github.com/ardayesilgul/rove-releases/issues).
