@@ -23,7 +23,7 @@
 
 <br/><br/>
 
-<img src="assets/hero_banner.png" alt="Rove Desktop Intelligence Showcase" width="100%" />
+<img src="assets/showcase_real_rove.png" alt="Rove Desktop Intelligence Showcase" width="100%" />
 
 </div>
 
@@ -41,12 +41,6 @@ Modern desktop computers have vast hard drives filled with scattered memories, d
 
 ### 1. Smart, Private Face & Photo Albums
 Scan tens of thousands of family photos, travel archives, and screenshots in seconds.
-
-<br/>
-
-<img src="assets/preview_face_ai.png" alt="Rove Face AI Clustering" width="100%" />
-
-<br/>
 
 * **Learns Faces Over Time:** Rove does not use static photo comparisons. As you verify photos across different years, lighting, beards, and glasses, its neural centroid dynamically learns each person's evolving profile.
 * **Instant Grouping:** Automatically clusters people into searchable albums without requiring manual tagging.
@@ -69,7 +63,9 @@ A living, minimal island at the top of your screen that keeps you informed witho
 
 <br/>
 
-<img src="assets/preview_island.png" alt="Rove Dynamic Island Showcase" width="100%" />
+<div align="center">
+<img src="assets/dynamic_island.gif" alt="Rove Dynamic Island Showcase" width="80%" />
+</div>
 
 <br/>
 
