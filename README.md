@@ -49,10 +49,44 @@ Scan tens of thousands of family photos, travel archives, and screenshots in sec
 
 ---
 
-### 2. Instant Spotlight Search (`Alt + Space`)
-A universal search engine that indexes both your file names and deep document contents.
+### 2. Deep In-Document Content Search
+Search directly through the body of documents, contracts, and spreadsheets even when the keyword does not appear in the file name.
 
-* **Search Inside Documents:** Finds text inside PDFs, Word documents (`.docx`), Excel spreadsheets (`.xlsx`), and raw image EXIF metadata.
+<br/>
+
+<div align="center">
+<img src="assets/feature_document_search.gif" alt="Rove Deep In-Document Content Search" width="90%" />
+</div>
+
+<br/>
+
+* **Content-Aware Indexing:** Query terms like `"Fesih ve Tazminat"` locate agreements named `Hizmet_Sozlesmesi_2024.docx` in sub-5 milliseconds.
+* **Contextual Snippet Extraction:** Highlights the exact matching clause or paragraph directly in the result preview.
+* **Extensive Format Support:** Full native support for `.pdf`, `.docx`, `.xlsx`, `.pptx`, `.txt`, and `.udf`.
+
+---
+
+### 3. Visual Perception & On-Device OCR Search
+Find scanned invoices, receipts, vehicle registrations, and screenshots using text visible solely inside the image.
+
+<br/>
+
+<div align="center">
+<img src="assets/feature_ocr_search.gif" alt="Rove On-Device Visual Perception OCR Search" width="90%" />
+</div>
+
+<br/>
+
+* **Zero Metadata Dependency:** Search queries like `"KDV Dahil 4.850"` match scans named `Tarama_Fatura_0921.jpg` without any prior tagging.
+* **Side-by-Side Inspector:** Click any scan to inspect the original image alongside the recognized text block with highlighted matches.
+* **Instant Productivity Actions:** Single-click actions to launch the file, copy full recognized text to clipboard, or reveal in Windows Explorer.
+
+---
+
+### 4. Instant Spotlight Search (`Alt + Space`)
+A universal system search engine that indexes both file names and deep document contents.
+
+* **Global Access:** Summon the unified command bar from anywhere with a single hotkey.
 * **Sub-5 Millisecond Queries:** Powered by local full-text search with contextual relevance ranking. You get instant results on your very first keystroke.
 * **Natural Filtering:** Type a person's name, a keyword from a contract, or a project tag—Rove connects the dots instantly.
 
