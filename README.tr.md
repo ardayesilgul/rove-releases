@@ -49,10 +49,44 @@ Diskinizdeki on binlerce tatil fotoğrafını, aile anısını ve ekran görünt
 
 ---
 
-### 2. Anında Spotlight Arama (`Alt + Space`)
-Yalnızca dosya isimlerini değil, belgelerin içindeki metinleri de arayan yerel arama motoru.
+### 2. Belgelerin İçinde Derin Metin Araması
+Dosya adında aradığınız kelime geçmese bile sözleşme, şartname veya elektronik tabloların doğrudan gövde metninde arama yapın.
 
-* **Belgelerin İçini Okur:** PDF, Word (`.docx`), Excel (`.xlsx`) belgelerindeki ve fotoğrafların EXIF detaylarındaki metinleri anında tarar.
+<br/>
+
+<div align="center">
+<img src="assets/feature_document_search.gif" alt="Rove Belgelerin İçinde Derin Metin Araması" width="90%" />
+</div>
+
+<br/>
+
+* **İçerik Odaklı İndeksleme:** `"Fesih ve Tazminat"` gibi sorgular, adı yalnızca `Hizmet_Sozlesmesi_2024.docx` olan dosyaları 5 milisaniyenin altında bulur.
+* **Bağlamsal Metin Vurgulama:** İlgili maddenin veya cümlenin geçtiği pasajı arama sonuç kartında sarı renkle anında vurgular.
+* **Geniş Format Desteği:** `.pdf`, `.docx`, `.xlsx`, `.pptx`, `.txt` ve `.udf` formatlarının tamamında yerel tam metin arama.
+
+---
+
+### 3. Görsellerden ve Taramalardan OCR Algılama
+Fatura, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar ve kelimeleri doğrudan görselin içinden okuyarak bulun.
+
+<br/>
+
+<div align="center">
+<img src="assets/feature_ocr_search.gif" alt="Rove Görsellerden ve Taramalardan OCR Algılama" width="90%" />
+</div>
+
+<br/>
+
+* **Sıfır Ön Etiketleme İhtiyacı:** Dosya adı `Tarama_Fatura_0921.jpg` olan bir belgede geçen `"KDV Dahil 4.850"` ifadesiyle faturayı anında ekrana getirin.
+* **Yan Yana İnceleme Paneli:** Eşleşen faturanın orijinal taranmış görüntüsü ile tanınan OCR metin bloğu ve vurgulanan eşleşme yan yana incelenir.
+* **Hızlı Aksiyonlar:** Tanınan metni tek tıkla panoya kopyalayın, dosyayı açın veya Windows Gezgini'nde konumuna gidin.
+
+---
+
+### 4. Anında Spotlight Arama (`Alt + Space`)
+Yalnızca dosya isimlerini değil, tüm sistemdeki belgelerin içindeki metinleri de arayan yerel komut satırı.
+
+* **Evrensel Erişim:** Tek bir kısayolla masaüstünün her yerinden anında çağrılır.
 * **Milisaniyelik Yanıt:** İlk harfe bastığınız anda sonuçlar 5 milisaniyenin altında ekrana gelir.
 * **Doğal Filtreleme:** Kişi adı, sözleşmedeki bir madde veya proje kodu yazın; Rove ilgili tüm içeriği önünüze serer.
 
