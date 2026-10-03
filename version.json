@@ -1,6 +1,6 @@
 {
-  "version": "1.0.11",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.11/Rove-Setup-1.0.11.exe",
-  "sha256": "bcaa8cf34e0b4473addac48fda466dbf7ce6958697debd982d0fd64b535da702",
-  "changelog": "Sonsuz kaydırma ile kesintisiz fotoğraf yükleme işlevlerinde geliştirmeler yapıldı, farklı ekranlarında ızgara taşma düzeltmeleri, toplu yüz onay/red araçları ve arayüz cilaları."
+    "download_url":  "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.12/Rove-Setup-1.0.12.exe",
+    "changelog":  "Kişiler stüdyosu ve fotoğraf galerisinde O(1) önbellek ve anında yükleme iyileştirmeleri, avatar çizim optimizasyonları, kartlarda alttan kesilme düzeltmeleri ve checkmark menü ikonları.",
+    "sha256":  "18c64871030630ff5c6f3d7480efd7a1685067b0b07f58578db201296c22fa6b",
+    "version":  "1.0.12"
 }
