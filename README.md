@@ -12,14 +12,14 @@
 
 **Turn disorganized photo libraries into smart identity albums, find any document in milliseconds, and control your environment with a seamless Dynamic Island.**
 
-[![Version](https://img.shields.io/badge/VERSION-v1.0.12%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.12)
-[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.12)
+[![Version](https://img.shields.io/badge/VERSION-v1.0.13%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.13)
+[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.13)
 [![Privacy](https://img.shields.io/badge/PRIVACY-100%25%20LOCAL%20%26%20OFFLINE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 [![Memory](https://img.shields.io/badge/RAM-158%20MB%20LIGHTWEIGHT-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
-[**DOWNLOAD ROVE FOR WINDOWS (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.12/Rove-Setup-1.0.12.exe)
+[**DOWNLOAD ROVE FOR WINDOWS (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.13/Rove-Setup-1.0.13.exe)
 
 <br/><br/>
 
@@ -143,7 +143,7 @@ Most modern desktop apps are heavy web wrappers that consume gigabytes of memory
 
 ## Getting Started
 
-1. Download the latest installer: [**Rove-Setup-1.0.12.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.12/Rove-Setup-1.0.12.exe)
+1. Download the latest installer: [**Rove-Setup-1.0.13.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.13/Rove-Setup-1.0.13.exe)
 2. Run the installer (takes ~15 seconds to set up).
 3. Press **`Alt + Space`** to summon Spotlight, or click the island at the top of your screen.
 
