@@ -1,6 +1,6 @@
 {
-    "download_url":  "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.12/Rove-Setup-1.0.12.exe",
-    "changelog":  "Kişiler stüdyosu ve fotoğraf galerisinde O(1) önbellek ve anında yükleme iyileştirmeleri, avatar çizim optimizasyonları, kartlarda alttan kesilme düzeltmeleri ve checkmark menü ikonları.",
-    "sha256":  "18c64871030630ff5c6f3d7480efd7a1685067b0b07f58578db201296c22fa6b",
-    "version":  "1.0.12"
+    "version": "1.0.13",
+    "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.13/Rove-Setup-1.0.13.exe",
+    "sha256": "e2a9976bcd6ebb58688ea30dbb2c8a06298134cdc78eb4da3511fab2f41973cb",
+    "changelog": "Apple Shiny Specular Sheen acilis deneyimi, 6.000+ fotograf icin sinirsiz derin disk kesfi, 72'lik asamali galeri render motoru ve 0 ms bellek ici onbellek."
 }
