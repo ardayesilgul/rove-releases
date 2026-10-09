@@ -12,14 +12,14 @@
 
 **Dağınık fotoğraf arşivlerinizi akıllı albümlere dönüştürün, aradığınız her belgeyi milisaniyeler içinde bulun ve bilgisayarınızı Dinamik Ada ile yönetin.**
 
-[![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.13%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.13)
-[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.13)
+[![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.14%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
+[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
 [![Gizlilik](https://img.shields.io/badge/G%C4%B0ZL%C4%B0L%C4%B0K-%25100%20YEREL%20%26%20%C3%87EVR%C4%B0MDI%C5%9EI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 [![Bellek](https://img.shields.io/badge/RAM-158%20MB%20HAF%C4%B0F-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
-[**WINDOWS İÇİN ROVE'U İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.13/Rove-Setup-1.0.13.exe)
+[**WINDOWS İÇİN ROVE'U İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
 
 <br/><br/>
 
@@ -143,7 +143,7 @@ Masaüstü programlarının çoğu arka planda gigabaytlarca RAM tüketen hantal
 
 ## Kurulum ve Başlangıç
 
-1. Kurulum dosyasını indirin: [**Rove-Setup-1.0.13.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.13/Rove-Setup-1.0.13.exe)
+1. Kurulum dosyasını indirin: [**Rove-Setup-1.0.14.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
 2. Kurulumu çalıştırın (yaklaşık 15 saniyede tamamlanır).
 3. Klavyenizden **`Alt + Space`** tuşuna basarak aramayı açın veya ekranın tepesindeki adaya tıklayın.
 
