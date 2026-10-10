@@ -34,7 +34,7 @@
 
 Bilgisayarlarımızda yıllardır biriken binlerce dağınık fotoğraf, sözleşme, PDF ve not var. Ancak aradığımız bir anıyı veya önemli bir faturayı bulmak çoğu zaman dakikalar sürüyor; bulut tabanlı yapay zeka araçları ise tüm özel fotoğraflarınızı ve belgelerinizi kendi sunucularına yüklemenizi istiyor.
 
-**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlı ve hafiftir, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz. Bu sayede bilgisayarınızdaki hiçbir içeriği bulut servislerine yüklemenize gerek kalmadan fotoğraflarınızı bir arada görüntüleyebilir, kişileri gruplandırabilir ve tüm belgelerinizi kolaylıkla bulabilirsiniz. Görseller sekmesinden bilgisayarınzdaki fotoğrafları telefon galerisi şeklinde, yeniden eskiye gün gün ayrılmış şekilde görüntüleyebilirsiniz.
+**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlı ve hafiftir, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz. Bu sayede bilgisayarınızdaki hiçbir içeriği bulut servislerine yüklemenize gerek kalmadan fotoğraflarınızı bir arada görüntüleyebilir, kişileri gruplandırabilir ve tüm belgelerinizi kolaylıkla bulabilirsiniz. Görseller sekmesinden bilgisayarınızdaki fotoğrafları telefon galerisi şeklinde, yeniden eskiye gün gün ayrılmış şekilde görüntüleyebilirsiniz.
 
 ---
 
@@ -85,7 +85,7 @@ Fatura, tapu, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar v
 ---
 
 ### 4. Anında Spotlight Arama (`Alt + Space`)
-**Alt + Space** tuşlarına basarak Spotlight'ı açın. Dosyaları ve uygulamaları adlarına göre arayın; sonuçları herhangi bir iş yaparken anlık olarak açın. *Belge içeriğinde arama, Belgeler bölümünde ayrı olarak sunulur.*
+**Alt + Space** tuşlarına basarak Spotlight'ı açın. Dosyaları ve uygulamaları adlarına göre arayın; sonuçları herhangi bir iş yaparken anlık olarak açın. * *Belge içeriğinde arama, Belgeler bölümünde ayrı olarak sunulur.* *
 
 <br/>
 
