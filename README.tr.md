@@ -10,8 +10,6 @@
 
 ### Windows İçin Hızlı, Gizli ve Akıllı Masaüstü Uygulaması
 
-**Dosyalarınızı bulun. İçeriklerinde arayın. Fotoğraflarınızı kişilere göre düzenleyin.**
-
 Rove; dosyalarınızı, belgelerinizi, fotoğraflarınızı ve günlük kontrollerinizi tek bir masaüstü deneyiminde buluşturur. Dosya adının ötesinde arayın, büyüyen fotoğraf arşivinizi düzenleyin ve çalışırken ihtiyaç duyduğunuz araçları elinizin altında tutun.
 
 <br/>
