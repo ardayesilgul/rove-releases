@@ -17,7 +17,6 @@ Rove; dosyalarınızı, belgelerinizi, fotoğraflarınızı ve günlük kontroll
 [![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.14%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
 [![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
 [![Gizlilik](https://img.shields.io/badge/G%C4%B0ZL%C4%B0L%C4%B0K-%25100%20YEREL%20%26%20%C3%87EVR%C4%B0MDI%C5%9EI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
-[![Bellek](https://img.shields.io/badge/RAM-158%20MB%20HAF%C4%B0F-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
