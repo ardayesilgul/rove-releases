@@ -8,9 +8,10 @@
 
 # ROVE
 
-### Windows İçin Hızlı, Gizli ve Akıllı Masaüstü Katmanı
+### Windows İçin Hızlı, Gizli ve Akıllı Masaüstü Uygulaması
+**Dosyalarınızı bulun. İçeriklerinde arayın. Fotoğraflarınızı kişilere göre düzenleyin.**
 
-**Dağınık fotoğraf arşivlerinizi akıllı albümlere dönüştürün, aradığınız her belgeyi milisaniyeler içinde bulun ve bilgisayarınızı Dinamik Ada ile yönetin.**
+**Rove; dosyalarınızı, belgelerinizi, fotoğraflarınızı ve günlük kontrollerinizi tek bir masaüstü deneyiminde buluşturur. Dosya adının ötesinde arayın, büyüyen fotoğraf arşivinizi düzenleyin ve çalışırken ihtiyaç duyduğunuz araçları elinizin altında tutun.**
 
 [![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.14%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
 [![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
@@ -33,24 +34,24 @@
 
 Bilgisayarlarımızda yıllardır biriken binlerce dağınık fotoğraf, sözleşme, PDF ve not var. Ancak aradığımız bir anıyı veya önemli bir faturayı bulmak çoğu zaman dakikalar sürüyor; bulut tabanlı yapay zeka araçları ise tüm özel fotoğraflarınızı ve belgelerinizi kendi sunucularına yüklemenizi istiyor.
 
-**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlıdır, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz.
+**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlı ve hafiftir, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz. Bu sayede bilgisayarınızdaki hiçbir içeriği bulut servislerine yüklemenize gerek kalmadan fotoğraflarınızı bir arada görüntüleyebilir, kişileri gruplandırabilir ve tüm belgelerinizi kolaylıkla bulabilirsiniz. Görseller sekmesinden bilgisayarınzdaki fotoğrafları telefon galerisi şeklinde, yeniden eskiye gün gün ayrılmış şekilde görüntüleyebilirsiniz.
 
 ---
 
 ## Öne Çıkan Özellikler
 
 ### 1. Akıllı ve %100 Gizli Yüz & Fotoğraf Albümleri
-Diskinizdeki on binlerce tatil fotoğrafını, aile anısını ve ekran görüntüsünü saniyeler içinde tarayın.
+Rove, seçtiğiniz fotoğraf klasörlerindeki yüzleri tarar, aynı kişiye ait görünen fotoğrafları bir araya getirir ve isimlendirmeniz için size sunar. Bir kişiye isim verdikten sonra o kişinin arşivinizdeki fotoğraflarını birlikte görebilirsiniz. Yüz tanıma sistemi zaman zaman hatalı eşleşmeler yapabilir. Önerilen eşleşmeleri onaylamanız ve yanlış olanları düzeltmeniz, Rove'un arşivinizdeki kişileri daha doğru tanımasına yardımcı olur.
 
-* **Zamanla Tanımayı Öğrenir:** Rove basit şablonlarla çalışmaz. Farklı yıllara, sakal, gözlük veya ışık değişimlerine ait yeni fotoğraflar geldikçe, kişinin ağırlık merkezini dinamik olarak günceller ve her geçen gün kişiyi daha isabetli tanımayı öğrenir.
+* **Zamanla Tanımayı Öğrenir:** Rove basit şablonlarla çalışmaz. Farklı yıllara, sakal, gözlük veya ışık değişimlerine ait yeni fotoğraflar geldikçe, kişinin sisteme işlenmiş kimliğini dinamik olarak günceller ve her geçen gün kişiyi daha isabetli tanımayı öğrenir.
 * **Otomatik Gruplandırma:** Tek tek etiketlemeye gerek kalmadan herkesi kendi albümünde toplar.
 * **Sıfır Bulut Yüklemesi:** Tüm yüz tespiti ve biyometrik işlemler doğrudan bilgisayarınızın işlemci ve ekran kartında gerçekleşir. Anılarınız diskinizden asla dışarı çıkmaz.
-* **Tek Tıkla Düzeltme:** Yanlış eşleşen bir fotoğrafı albümden çıkardığınızda, yapay zeka o hatayı anında hafızasından arındırır ve bir daha karşınıza çıkarmaz.
+* **Tek Tıkla Düzeltme:** Yanlış eşleşen bir fotoğrafı (cisim, kıyafet baskısı, çizgi film karakteri, biblo vb.) albümden çıkardığınızda, yapay zeka o hatayı anında hafızasından arındırır ve bir daha karşınıza çıkarmaz. Başka bir kişinin fotoğrafı yanlış albüme dahil edilmiş olsa bile bunu doğru kişiye atayabilir bu sayede modelin aynı hatayı tekrar yapma ihtimalini de azaltmış olursunuz.
 
 ---
 
 ### 2. Belgelerin İçinde Derin Metin Araması
-Dosya adında aradığınız kelime geçmese bile sözleşme, şartname veya elektronik tabloların doğrudan gövde metninde arama yapın.
+Dosya adında aradığınız kelime geçmese bile sözleşme, fatura, ödev notları veya elektronik tabloların doğrudan gövde metninde arama yapın.
 
 <br/>
 
@@ -60,14 +61,14 @@ Dosya adında aradığınız kelime geçmese bile sözleşme, şartname veya ele
 
 <br/>
 
-* **İçerik Odaklı İndeksleme:** `"Fesih ve Tazminat"` gibi sorgular, adı yalnızca `Hizmet_Sozlesmesi_2024.docx` olan dosyaları 5 milisaniyenin altında bulur.
-* **Bağlamsal Metin Vurgulama:** İlgili maddenin veya cümlenin geçtiği pasajı arama sonuç kartında sarı renkle anında vurgular.
-* **Geniş Format Desteği:** `.pdf`, `.docx`, `.xlsx`, `.pptx`, `.txt` ve `.udf` formatlarının tamamında yerel tam metin arama.
+* **İçerik Odaklı İndeksleme:** `"Fesih ve Tazminat"` gibi sorgular, adı yalnızca `Hizmet_Sozlesmesi_2024.docx` olan dosyaları milisaniyeler içinde bulur.
+* **Bağlamsal Metin Vurgulama:** İlgili maddenin veya cümlenin geçtiği pasajı arama sonuç kartında sarı renkle vurgular.
+* **Geniş Format Desteği:** `.pdf`, `.docx`, `.xlsx`, `.pptx`, `.txt` ve `.udf` formatlarının tamamında yerel tam metin aramayı destekler.
 
 ---
 
 ### 3. Görsellerden ve Taramalardan OCR Algılama
-Fatura, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar ve kelimeleri doğrudan görselin içinden okuyarak bulun.
+Fatura, tapu, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar ve kelimeleri doğrudan görselin içinden okuyarak bulun.
 
 <br/>
 
@@ -78,13 +79,13 @@ Fatura, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar ve keli
 <br/>
 
 * **Sıfır Ön Etiketleme İhtiyacı:** Dosya adı `Tarama_Fatura_0921.jpg` olan bir belgede geçen `"KDV Dahil 4.850"` ifadesiyle faturayı anında ekrana getirin.
-* **Yan Yana İnceleme Paneli:** Eşleşen faturanın orijinal taranmış görüntüsü ile tanınan OCR metin bloğu ve vurgulanan eşleşme yan yana incelenir.
-* **Hızlı Aksiyonlar:** Tanınan metni tek tıkla panoya kopyalayın, dosyayı açın veya Windows Gezgini'nde konumuna gidin.
+* **Yan Yana İnceleme Paneli:** Eşleşen faturanın orijinal görüntüsü ile tanınan OCR metin bloğu ve vurgulanan eşleşme yan yana incelenir.
+* **Hızlı Aksiyonlar:** Tanınan metni tek tıkla panoya kopyalayabilir, görüntüyü açabilir veya Windows Gezgini'nde konumuna gidebilirsiniz.
 
 ---
 
 ### 4. Anında Spotlight Arama (`Alt + Space`)
-Yalnızca dosya isimlerini değil, tüm sistemdeki belgelerin içindeki metinleri de arayan yerel komut satırı.
+**Alt + Space** tuşlarına basarak Spotlight'ı açın. Dosyaları ve uygulamaları adlarına göre arayın; sonuçları herhangi bir iş yaparken anlık olarak açın. *Belge içeriğinde arama, Belgeler bölümünde ayrı olarak sunulur.*
 
 <br/>
 
@@ -95,13 +96,12 @@ Yalnızca dosya isimlerini değil, tüm sistemdeki belgelerin içindeki metinler
 <br/>
 
 * **Evrensel Erişim:** Tek bir kısayolla masaüstünün her yerinden anında çağrılır.
-* **Milisaniyelik Yanıt:** İlk harfe bastığınız anda sonuçlar 5 milisaniyenin altında ekrana gelir.
-* **Doğal Filtreleme:** Fotoğraf adı, uygulama veya sözleşmedeki bir madde yazın; Rove ilgili içeriği önünüze serer.
+*  Uygulama - Fotoğraf - Belge - Klasör adı ile aratın, Rove ilgili içeriği önünüze getirir.
 
 ---
 
 ### 5. Ekranın Tepesinde Canlı Dinamik Ada
-Çalışma temponuzu bölmeden ihtiyacınız olan bilgileri sunan minimalist masaüstü çentiği.
+Dinamik Ada, medya kontrollerini ve dosyalarınız için geçici bir alanı ekranın üstünde küçük bir bölümde sunar. Siz çalışmaya devam ederken bir dosyayı adaya bırakıp elinizin altında tutabilirsiniz. Dosya işlemlerinden **Convert**'i açarak sunulan biçimlerden birini seçin; Rove dönüştürülmüş bir kopya oluşturur. Kullanabileceğiniz biçimler dosyanın türüne göre değişir.
 
 <br/>
 
@@ -111,35 +111,22 @@ Yalnızca dosya isimlerini değil, tüm sistemdeki belgelerin içindeki metinler
 
 <br/>
 
-* **Gerçek Ses Dalgaları:** Spotify veya bilgisayarda müzik çalarken, hoparlörden çıkan gerçek ses sinyaline göre dalgalanan canlı ekolayzır barları. Ses kesildiğinde dalgalar taban çizgisine oturur.
-* **Zarif Donanım Bildirimleri:** Windows'un kaba büyük ses ve parlaklık kutuları yerine modern, akıcı kapsüller gösterir.
-* **Odaklanma & Dosya Rafı:** Tek tıkla Pomodoro çalışma sayacını başlatın ya da dosyaları adanın üstüne sürükleyip geçici rafta bekletin.
-* **Akıllı Alan Boşaltma:** Tarayıcı sekmeleri ekran tepesine yaklaştığında 5px yukarı çekilerek sekmeleri kapatmanızı engellemez; tam ekran oyun veya videolarda anında gizlenir.
+Dinamik Ada, o an yaptığınız işe göre farklı araçlara dönüşür. Medya çalarken oynatmayı adadan yönetin; parçalar arasında geçiş yapın ve ses seviyesini ayarlayın. Üç görünüm arasından seçiminizi yapın.
+
+Bir dosyayı adaya bıraktığınızda, dosya türüne uygun işlemler açılır. Görseller için **dönüştürme**, **sıkıştırma** ve görseldeki metni alma; belgeler için **dönüştürme**, metin çıkarma ve dosyayı açma seçenekleri sunulur. Dönüştürme seçenekleri dosya türüne göre değişir. İşlemler kaynak dosyayı koruyup yanında yeni bir kopya oluşturur.
+
+İşlevsel görünümde panoya kopyaladığınız metinler ve dosya yolları geçici rafta toplanır; buradan bir öğeyi yeniden panoya alabilirsiniz. Aynı alandan açılan Hızlı Not, kısa notlarınızı saklar ve sonra devam etmenize imkân verir.
+
+Tarayıcı sekmeleri ekran tepesine yaklaştığında 5px yukarı çekilerek sekmeleri kapatmanızı engellemez; tam ekran oyun veya videolarda anında gizlenir.
 
 ---
 
 ### 6. Şişkinlik Değil, Saf Hız İçin Üretildi
 
-Masaüstü programlarının çoğu arka planda gigabaytlarca RAM tüketen hantal web pencereleridir. Rove yerel, optimize edilmiş bir mimariyle çalışır:
-
-* **Sadece ~158 MB RAM:** Arka planda boşta çalışırken sıfır CPU tüketir, bilgisayarınızı asla yavaşlatmaz.
-* **60 FPS Akıcı Animasyonlar:** Tüm kart ve menü açılışları monitörünüzün kare hızına eşitlenmiş doğal yay fiziğiyle ($s = 1.70158$) hareket eder.
-* **Asenkron Güvenlik:** Ağır fotoğraf tarama ve dosya indeksleme işlemleri arka plandaki bağımsız işçilerde yürütülür; ana arayüz hiçbir zaman "Program Yanıt Vermiyor" uyarısıyla donmaz.
+Rove yerel, optimize edilmiş bir mimariyle çalışmaktadır. Fotoğraf ve dosya taramalarını arka planda yürütür. Tarama devam ederken uygulamanın diğer bölümlerini kullanabilir, bilgisayarınızdaki işlerinize devam edebilirsiniz.
 
 ---
 
-## Karşılaştırma Tablosu
-
-| Özellik | Tipik Bulut / Web Araçları | Rove |
-| :--- | :--- | :--- |
-| **Veri Gizliliği** | Fotoğrafları bulut sunucularına yükler | **%100 Çevrimdışı (Dosyalarınız PC'nizde kalır)** |
-| **Yüz Tanıma** | Basit statik etiketler | **Zamanla Öğrenen Dinamik Centroid Modeli** |
-| **Arama Hızı** | 300ms - 2000ms (İnternete bağlı) | **< 5ms (Yerel FTS5 ile anında)** |
-| **RAM Tüketimi** | 800 MB - 2.5 GB (Electron) | **~158 MB (Yerel hafif binary)** |
-| **Arayüz Tepkisi** | Ağır işlemlerde kilitlenme | **Katı 60 FPS VSync İzolasyonu** |
-| **Telemetri** | Sürekli arka plan veri toplama | **%0 Telemetri (Sıfır dış bağlantı)** |
-
----
 
 ## Kurulum ve Başlangıç
 
@@ -149,7 +136,8 @@ Masaüstü programlarının çoğu arka planda gigabaytlarca RAM tüketen hantal
 
 ---
 
-## Geri Bildirim ve Destek
+Geri bildirim
 
-Bir hata mı fark ettiniz, teknik bir öneriniz mi var veya yeni bir araç mı istiyorsunuz?  
-[GitHub Issues](https://github.com/ardayesilgul/rove-releases/issues) üzerinden doğrudan kayıt açabilirsiniz.
+Hata ve özellik önerilerinizi [GitHub Issues](https://github.com/ardayesilgul/rove-releases/issues) üzerinden iletebilirsiniz. Hata bildirirken Rove sürümünü, Windows sürümünü, hatayı tekrarlama adımlarını ve beklenen sonucu ekleyin. Ekran görüntüsü veya günlük paylaşmadan önce kişisel bilgileri kaldırsanız iyi olur :p.
+
+Geliştirici: [Arda Yeşilgül](https://github.com/ardayesilgul).
