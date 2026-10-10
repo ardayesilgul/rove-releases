@@ -12,7 +12,7 @@
 
 **Dosyalarınızı bulun. İçeriklerinde arayın. Fotoğraflarınızı kişilere göre düzenleyin.**
 
-**Rove; dosyalarınızı, belgelerinizi, fotoğraflarınızı ve günlük kontrollerinizi tek bir masaüstü deneyiminde buluşturur. Dosya adının ötesinde arayın, büyüyen fotoğraf arşivinizi düzenleyin ve çalışırken ihtiyaç duyduğunuz araçları elinizin altında tutun.**
+Rove; dosyalarınızı, belgelerinizi, fotoğraflarınızı ve günlük kontrollerinizi tek bir masaüstü deneyiminde buluşturur. Dosya adının ötesinde arayın, büyüyen fotoğraf arşivinizi düzenleyin ve çalışırken ihtiyaç duyduğunuz araçları elinizin altında tutun.
 
 <br/>
 
@@ -24,6 +24,8 @@
 <br/>
 
 [**WINDOWS İÇİN ROVE'U İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
+
+[Sürüm Notları](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14) &bull; [Hata Bildir](https://github.com/ardayesilgul/rove-releases/issues)
 
 <br/><br/>
 
@@ -37,7 +39,9 @@
 
 Bilgisayarlarımızda yıllardır biriken binlerce dağınık fotoğraf, sözleşme, PDF ve not var. Ancak aradığımız bir anıyı veya önemli bir faturayı bulmak çoğu zaman dakikalar sürüyor; bulut tabanlı yapay zeka araçları ise tüm özel fotoğraflarınızı ve belgelerinizi kendi sunucularına yüklemenizi istiyor.
 
-**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlı ve hafiftir, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz. Bu sayede bilgisayarınızdaki hiçbir içeriği bulut servislerine yüklemenize gerek kalmadan fotoğraflarınızı bir arada görüntüleyebilir, kişileri gruplandırabilir ve tüm belgelerinizi kolaylıkla bulabilirsiniz. Görseller sekmesinden bilgisayarınızdaki fotoğrafları telefon galerisi şeklinde, yeniden eskiye gün gün ayrılmış şekilde görüntüleyebilirsiniz.
+**Rove bu alışkanlığı değiştiriyor.** Windows için sıfırdan geliştirilen Rove; derin yapay zeka algoritmalarını tamamen kendi bilgisayarınızın donanımında çalıştırır. Son derece hızlı ve hafiftir, arka planda sessizce işini yapar ve verilerinizi asla internete sızdırmaz. 
+
+Bu sayede bilgisayarınızdaki hiçbir içeriği bulut servislerine yüklemenize gerek kalmadan fotoğraflarınızı bir arada görüntüleyebilir, kişileri gruplandırabilir ve tüm belgelerinizi kolaylıkla bulabilirsiniz. Görseller sekmesinden bilgisayarınızdaki fotoğrafları telefon galerisi şeklinde, yeniden eskiye gün gün ayrılmış şekilde görüntüleyebilirsiniz.
 
 ---
 
@@ -45,7 +49,9 @@ Bilgisayarlarımızda yıllardır biriken binlerce dağınık fotoğraf, sözle�
 
 ### 1. Akıllı ve %100 Gizli Yüz & Fotoğraf Albümleri
 
-Rove, seçtiğiniz fotoğraf klasörlerindeki yüzleri tarar, aynı kişiye ait görünen fotoğrafları bir araya getirir ve isimlendirmeniz için size sunar. Bir kişiye isim verdikten sonra o kişinin arşivinizdeki fotoğraflarını birlikte görebilirsiniz. Yüz tanıma sistemi zaman zaman hatalı eşleşmeler yapabilir. Önerilen eşleşmeleri onaylamanız ve yanlış olanları düzeltmeniz, Rove'un arşivinizdeki kişileri daha doğru tanımasına yardımcı olur.
+Rove, seçtiğiniz fotoğraf klasörlerindeki yüzleri tarar, aynı kişiye ait görünen fotoğrafları bir araya getirir ve isimlendirmeniz için size sunar. Bir kişiye isim verdikten sonra o kişinin arşivinizdeki fotoğraflarını birlikte görebilirsiniz. 
+
+Yüz tanıma sistemi zaman zaman hatalı eşleşmeler yapabilir. Önerilen eşleşmeleri onaylamanız ve yanlış olanları düzeltmeniz, Rove'un arşivinizdeki kişileri daha doğru tanımasına yardımcı olur.
 
 * **Zamanla Tanımayı Öğrenir:** Rove basit şablonlarla çalışmaz. Farklı yıllara, sakal, gözlük veya ışık değişimlerine ait yeni fotoğraflar geldikçe, kişinin sisteme işlenmiş kimliğini dinamik olarak günceller ve her geçen gün kişiyi daha isabetli tanımayı öğrenir.
 * **Otomatik Gruplandırma:** Tek tek etiketlemeye gerek kalmadan herkesi kendi albümünde toplar.
@@ -92,7 +98,9 @@ Fatura, tapu, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar v
 
 ### 4. Anında Spotlight Arama (`Alt + Space`)
 
-<kbd>Alt</kbd> + <kbd>Space</kbd> tuşlarına basarak Spotlight'ı açın. Dosyaları ve uygulamaları adlarına göre arayın; sonuçları herhangi bir iş yaparken anlık olarak açın. *Belge içeriğinde arama, Belgeler bölümünde ayrı olarak sunulur.*
+<kbd>Alt</kbd> + <kbd>Space</kbd> tuşlarına basarak Spotlight'ı açın. Dosyaları ve uygulamaları adlarına göre arayın; sonuçları herhangi bir iş yaparken anlık olarak açın. 
+
+*Belge içeriğinde arama, Belgeler bölümünde ayrı olarak sunulur.*
 
 <br/>
 
@@ -103,7 +111,7 @@ Fatura, tapu, makbuz, araç ruhsatı veya ekran görüntülerinde geçen tutar v
 <br/>
 
 * **Evrensel Erişim:** Tek bir kısayolla masaüstünün her yerinden anında çağrılır.
-* **Hızlı Sonuç:** Uygulama, fotoğraf, belge veya klasör adı ile aratın; Rove ilgili içeriği önünüze getirir.
+* **Hızlı Sonuç:** Uygulama - Fotoğraf - Belge - Klasör adı ile aratın, Rove ilgili içeriği önünüze getirir.
 
 ---
 
