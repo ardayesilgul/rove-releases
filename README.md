@@ -16,16 +16,16 @@ Rove brings your files, documents, photos, and everyday desktop controls togethe
 
 <br/>
 
-[![Version](https://img.shields.io/badge/VERSION-v1.0.14%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
-[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
+[![Version](https://img.shields.io/badge/VERSION-v1.0.15%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15)
+[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15)
 [![Privacy](https://img.shields.io/badge/PRIVACY-100%25%20LOCAL%20%26%20OFFLINE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 [![Memory](https://img.shields.io/badge/RAM-158%20MB%20LIGHTWEIGHT-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
-[**DOWNLOAD ROVE FOR WINDOWS (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
+[**DOWNLOAD ROVE FOR WINDOWS (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.15/Rove-Setup-1.0.15.exe)
 
-[Release Notes](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14) &bull; [Report an Issue](https://github.com/ardayesilgul/rove-releases/issues)
+[Release Notes](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15) &bull; [Report an Issue](https://github.com/ardayesilgul/rove-releases/issues)
 
 <br/><br/>
 
@@ -145,7 +145,7 @@ Rove runs on an optimized, native local architecture. Photo and file scans run s
 
 ## Installation & Getting Started
 
-1. Download the installer: [**Rove-Setup-1.0.14.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
+1. Download the installer: [**Rove-Setup-1.0.15.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.15/Rove-Setup-1.0.15.exe)
 2. Run the installer (takes ~15 seconds to finish).
 3. Press <kbd>Alt</kbd> + <kbd>Space</kbd> on your keyboard to summon search, or click the island at the top of your screen.
 
