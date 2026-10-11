@@ -10,19 +10,22 @@
 
 ### Windows İçin Hızlı, Gizli ve Akıllı Masaüstü Uygulaması
 
+**Dosyalarınızı bulun. İçeriklerinde arayın. Fotoğraflarınızı kişilere göre düzenleyin.**
+
 Rove; dosyalarınızı, belgelerinizi, fotoğraflarınızı ve günlük kontrollerinizi tek bir masaüstü deneyiminde buluşturur. Dosya adının ötesinde arayın, büyüyen fotoğraf arşivinizi düzenleyin ve çalışırken ihtiyaç duyduğunuz araçları elinizin altında tutun.
 
 <br/>
 
-[![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.14%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
-[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14)
+[![Sürüm](https://img.shields.io/badge/S%C3%9CR%C3%9CM-v1.0.15%20KARARLI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15)
+[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15)
 [![Gizlilik](https://img.shields.io/badge/G%C4%B0ZL%C4%B0L%C4%B0K-%25100%20YEREL%20%26%20%C3%87EVR%C4%B0MDI%C5%9EI-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
+[![Bellek](https://img.shields.io/badge/RAM-158%20MB%20HAF%C4%B0F-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
-[**WINDOWS İÇİN ROVE'U İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
+[**WINDOWS İÇİN ROVE'U İNDİR (.EXE)**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.15/Rove-Setup-1.0.15.exe)
 
-[Sürüm Notları](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.14) &bull; [Hata Bildir](https://github.com/ardayesilgul/rove-releases/issues)
+[Sürüm Notları](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15) &bull; [Hata Bildir](https://github.com/ardayesilgul/rove-releases/issues)
 
 <br/><br/>
 
@@ -142,7 +145,7 @@ Rove yerel, optimize edilmiş bir mimariyle çalışmaktadır. Fotoğraf ve dosy
 
 ## Kurulum ve Başlangıç
 
-1. Kurulum dosyasını indirin: [**Rove-Setup-1.0.14.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe)
+1. Kurulum dosyasını indirin: [**Rove-Setup-1.0.15.exe**](https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.15/Rove-Setup-1.0.15.exe)
 2. Kurulumu çalıştırın (yaklaşık 15 saniyede tamamlanır).
 3. Klavyenizden <kbd>Alt</kbd> + <kbd>Space</kbd> tuşuna basarak aramayı açın veya ekranın tepesindeki adaya tıklayın.
 
