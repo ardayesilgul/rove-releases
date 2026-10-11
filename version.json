@@ -1,6 +1,6 @@
 {
-  "version": "1.0.14",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.14/Rove-Setup-1.0.14.exe",
-  "sha256": "a92a4343e209f05ddbc4e5b09169c86fe541f0a1832b7b72b787224192034955",
-  "changelog": "Windows Media ve WASAPI ses oturumları için yerel yardımcı süreç izolasyonu (256 MiB bellek sınırı), Dinamik Ada tam teardown ile 0 kaynak tüketimi, en-boy oranı korumalı son görsel önizlemeleri ve yüz kartlarında hızlı eylem kontrolleri."
+  "version": "1.0.15",
+  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.15/Rove-Setup-1.0.15.exe",
+  "sha256": "3d0852f7eea3e6a82f9621c50535c73c229701c96cd6dfa33ff24712c68d5881",
+  "changelog": "Görsel galerisinde daha fazla yükle, önceki kartları silip yeniden oluşturmadan yalnızca yeni görselleri ekler."
 }
