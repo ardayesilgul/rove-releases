@@ -19,7 +19,6 @@ Rove brings your files, documents, photos, and everyday desktop controls togethe
 [![Version](https://img.shields.io/badge/VERSION-v1.0.15%20STABLE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15)
 [![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%2F%2011%20x64-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases/releases/tag/v1.0.15)
 [![Privacy](https://img.shields.io/badge/PRIVACY-100%25%20LOCAL%20%26%20OFFLINE-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
-[![Memory](https://img.shields.io/badge/RAM-158%20MB%20LIGHTWEIGHT-09090b?style=for-the-badge&labelColor=18181b)](https://github.com/ardayesilgul/rove-releases)
 
 <br/>
 
