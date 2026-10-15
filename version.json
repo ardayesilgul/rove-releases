@@ -1,6 +1,6 @@
 {
-  "version": "1.0.15",
-  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.15/Rove-Setup-1.0.15.exe",
-  "sha256": "3d0852f7eea3e6a82f9621c50535c73c229701c96cd6dfa33ff24712c68d5881",
-  "changelog": "Fotoğraf galerisinde kesintisiz yükleme akıcılığı, daha hızlı kişi geçişleri ve sistem kaynaklarını yormayan arka plan optimizasyonları."
+  "version": "1.0.16",
+  "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.16/Rove-Setup-1.0.16.exe",
+  "sha256": "bdb51301a2a9055f951b6667e7fca121918cac8ae2cf61a484164b7707a4963d",
+  "changelog": "Bu sürümle birlikte otomatik güncelleme deneyimi daha güvenli ve pürüzsüz hale getirildi, OCR ve belge arama ekranındaki akıcılık artırıldı ve arayüz kararlılığı güçlendirildi."
 }
