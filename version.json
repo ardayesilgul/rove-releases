@@ -1,6 +1,6 @@
 {
   "version": "1.0.16",
   "download_url": "https://github.com/ardayesilgul/rove-releases/releases/download/v1.0.16/Rove-Setup-1.0.16.exe",
-  "sha256": "bdb51301a2a9055f951b6667e7fca121918cac8ae2cf61a484164b7707a4963d",
+  "sha256": "ee47cd5f0e8be6d647ac6d56a7c5eac1c08f0d1ce3cadf7e61a845b68b24d08d",
   "changelog": "Bu sürümle birlikte otomatik güncelleme deneyimi daha güvenli ve pürüzsüz hale getirildi, OCR ve belge arama ekranındaki akıcılık artırıldı ve arayüz kararlılığı güçlendirildi."
 }
